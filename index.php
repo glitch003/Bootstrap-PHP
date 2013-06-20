@@ -16,7 +16,7 @@
 
 
 
-        <?php include 'includes/jstop.php'; ?>
+        <?php include 'includes/jsTop.php'; ?>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -59,7 +59,7 @@
 
         </div> <!-- /container -->
 		
-        <?php include 'includes/jsbottom.php'; ?>
+        <?php include 'includes/jsBottom.php'; ?>
         
     </body>
 </html>
