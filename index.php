@@ -5,7 +5,10 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <?php include 'includes/meta.php'; ?>
+    	<?php include 'includes/head.php'; ?>
+        
+		<?php include 'includes/meta.php'; ?>
+        
 		<?php include 'includes/css.php'; ?>
 
 
@@ -15,8 +18,9 @@
 
 
 
-
-        <?php include 'includes/jsTop.php'; ?>
+		<?php include 'includes/jsTop.php'; ?>
+        
+        
     </head>
     <body>
         <!--[if lt IE 7]>
