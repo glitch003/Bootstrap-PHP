@@ -8,7 +8,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#"><?php echo $projectName; ?></a>
+                    <a class="brand" href="/"><?php echo $projectName; ?></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
 				<?php
