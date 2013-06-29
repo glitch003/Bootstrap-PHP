@@ -1,4 +1,10 @@
-<?php include 'includes/session.php'; ?>
+<?php 
+
+include 'includes/config.php'; 
+include 'includes/session.php'; 
+
+
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -8,7 +14,11 @@
     	<?php include 'includes/head.php'; ?>
         
 		<?php include 'includes/meta.php'; ?>
-        
+ 		
+		<title>
+			<?php include 'includes/title.php'; ?>       
+		</title>
+		
 		<?php include 'includes/css.php'; ?>
 
 
